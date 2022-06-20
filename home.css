@@ -1,0 +1,665 @@
+@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+  .Right {
+    float: right;
+    font-size: 20px;
+    padding: 25px 30px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+  .TopNav a:hover {
+    color: blue;
+  }
+
+  span {
+    color: blue;
+  }
+
+  .Section8 {
+    text-align: center;
+  }
+
+  hr {
+    width: 30px;
+  }
+
+  .Then {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: arial, helvetica, sans-serif;
+  }
+
+  h1 {
+    padding-left: 100px;
+    font-size: 40px;
+    color: black;
+  }
+
+  .image-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image-wrapper > img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .image-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(215, 215, 215, 0.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-wrapper > img,
+  .image-wrapper > .content {
+    transition: 200ms ease-in-out;
+  }
+
+  .image-wrapper:hover > .content.fade {
+    opacity: 1;
+  }
+
+  .image-wrapper > .content.fade {
+    opacity: 0;
+  }
+
+  .image-wrapper:hover > img.blur {
+    filter: blur(2px);
+  }
+
+  .Large {
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .Damn {
+    font-weight: bold;
+    color: black;
+  }
+
+  .Section1 {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+
+  .Rectangle {
+    width: 130px;
+    height: 400px;
+    background-color: black;
+    padding-left: 3px;
+  }
+
+  .Section1 img {
+    padding-left: 5px;
+  }
+
+  .Section2 {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: blue;
+    color: white;
+    padding-left: 140px;
+  }
+
+  .And {
+    font-size: 14px;
+    padding: 15px 15px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 20px #ff772e;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .View a:hover {
+    background-color: white;
+    color: blue;
+    border: 4px solid blue;
+  }
+
+  .Button {
+    font-size: 14px;
+    padding: 15px 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 20px #ff772e;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Go {
+    padding-top: 35px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .Uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .View {
+    padding-left: 300px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .Section3 {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    padding: 100px;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  .Section4 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 6%;
+    padding: 20px;
+  }
+
+  .Dinning {
+    text-decoration: none;
+    border: 1px solid rgb(25, 0, 255);
+    padding: 12px 12px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+  }
+
+  .Fat {
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+
+  .Yes {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .Section8 a:hover {
+    background-color: white;
+    color: blue;
+    border: 4px solid blue;
+  }
+
+  .Go a:hover {
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+  }
+
+  .Fat a:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+  }
+
+  .No {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Me {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .Dude {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .Cee {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  h2 {
+    font-size: 35px;
+    padding-left: 150px;
+    color: black;
+  }
+
+  .Last {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    padding: 30px;
+    padding-left: 170px;
+    padding-bottom: 10px;
+  }
+
+  .Key {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .Copyright {
+    margin-bottom: 0;
+  }
+
+  .Top {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .Section5 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 6%;
+    padding: 20px;
+  }
+
+  .Nest {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .When {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .Chinese {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  ul li {
+    list-style-type: none;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-left: 70px;
+  }
+
+  .Section5 ul li {
+    color: blue;
+  }
+
+  .Section6 {
+    padding: 50px;
+  }
+
+  .Section7 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 6%;
+    padding: 20px;
+    background-color: lightgrey;
+
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .Recreation {
+    width: 600px;
+    height: 210px;
+    background-color: white;
+    display: inline-block;
+  }
+
+  .Bold {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Right {
+    font-size: 5px;
+    padding: 5px 5px;
+    text-decoration: none;
+    background-color: #ff772e;
+    color: white;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .TopNav a:hover {
+    color: blue;
+  }
+
+  span {
+    color: rgb(25, 0, 255);
+  }
+
+  .Section8 {
+    text-align: center;
+  }
+
+  hr {
+    width: 30px;
+  }
+
+  .Then {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: arial, helvetica, sans-serif;
+  }
+
+  h1 {
+    padding-left: 20px;
+    font-size: 10px;
+    color: #3e282bff;
+  }
+
+  .image-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image-wrapper > img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .image-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(215, 215, 215, 0.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-wrapper > img,
+  .image-wrapper > .content {
+    transition: 200ms ease-in-out;
+  }
+
+  .image-wrapper:hover > .content.fade {
+    opacity: 1;
+  }
+
+  .image-wrapper > .content.fade {
+    opacity: 0;
+  }
+
+  .image-wrapper:hover > img.blur {
+    filter: blur(2px);
+  }
+
+  .Large {
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .Damn {
+    font-weight: bold;
+    color: black;
+  }
+
+  .Section1 {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+
+  .Rectangle {
+    width: 20px;
+    height: 200px;
+    background-color: #ff772e;
+    padding-left: 3px;
+  }
+
+  .Section1 img {
+    padding-left: 5px;
+  }
+
+  .Section2 {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    padding-left: 140px;
+  }
+
+  .Button {
+    font-size: 14px;
+    padding: 15px 15px;
+    background-color: #ff772e;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 20px #ff772e;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Go {
+    padding-top: 35px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .Uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .View {
+    padding-left: 300px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .Section3 {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    padding: 100px;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  .Section4 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 6%;
+    padding: 20px;
+  }
+
+  .Dinning {
+    text-decoration: none;
+    border: 1px solid rgb(25, 0, 255);
+    padding: 12px 12px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(25, 0, 255);
+  }
+
+  .Fat {
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+
+  .Yes {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .View a:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .Section8 a:hover {
+    background-color: white;
+    color: blue;
+    border: 4px solid blue;
+  }
+
+  .Go a:hover {
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+  }
+
+  .Fat a:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+  }
+
+  .No {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Me {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .Dude {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .Cee {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  h2 {
+    font-size: 35px;
+    padding-left: 150px;
+    color: #ff772e;
+  }
+
+  .Last {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    padding: 30px;
+    padding-left: 170px;
+    padding-bottom: 10px;
+  }
+
+  .Key {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .Copyright {
+    margin-bottom: 0;
+  }
+
+  .Top {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .Section5 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 6%;
+    padding: 20px;
+  }
+
+  .Nest {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .When {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  .Chinese {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 213, 128, 0.5);
+  }
+
+  ul li {
+    list-style-type: none;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-left: 70px;
+  }
+
+  .Section5 ul li {
+    color: blue;
+  }
+
+  .Section6 {
+    padding: 50px;
+  }
+
+  .Section7 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 6%;
+    padding: 20px;
+    background-color: lightgrey;
+
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .Recreation {
+    width: 600px;
+    height: 210px;
+    background-color: white;
+    display: inline-block;
+  }
+
+  .Bold {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
