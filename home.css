@@ -289,23 +289,13 @@ ul li {
   padding: 50px;
 }
 
-.Section7 {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-column-gap: 6%;
-  padding: 20px;
-  background-color: lightgrey;
-
-  margin-bottom: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .Recreation {
-  width: 600px;
-  height: 210px;
   background-color: white;
   display: inline-block;
+}
+.recreation-paragraph {
+  text-align: center;
+  font-size: small;
 }
 
 .Bold {
